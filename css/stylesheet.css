@@ -1,0 +1,87 @@
+h2{
+    border-color: black;
+    font-size: 40px;
+    background-color: rgb(27, 54, 134);
+    margin: 0;
+    
+  }
+  body{
+    background-color: rgb(230, 237, 251);
+    border-color: rgb(7, 7, 8);
+    border-style: solid;
+    padding: 0;
+    margin: 0;
+  } 
+  img{
+      border-radius: 50%;
+  }
+  h1{
+      font-size: 40px;
+    }
+  #one{
+      text-align: center;
+    }
+  header{
+      background-color: rgb(60, 218, 213);
+      text-align: center;
+      padding: 10px;
+    
+    }
+    aside{
+      text-align: center;
+      background-color: cadetblue;
+    }
+
+  article{
+      margin: 60px;
+      margin-right: 50px;
+    }
+    footer{
+      margin: 60px;
+      margin-top: -30px;
+    }
+  h3{
+    font-family: Verdana;
+  }
+  .big{
+    display: flex;
+  }
+  .box1{
+    border: 2px solid #000;
+    flex: 1;
+    margin-right: 2px;
+  }
+  .box2{
+    border: 2px solid #000;
+    flex: 1;
+    align-content: center;
+  }
+  #form{
+    background-color: gray;
+    border: 5px solid #0000;
+  }
+
+  #second{
+    background: url(https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg?auto=compress&cs=tinysrgb&w=600);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      padding: 10px;
+      margin: -10px;
+      
+  }
+  .nav{
+    list-style-type: none;
+    padding: 10px;
+    margin: -10px;
+    margin-right: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+  }
+menu a:hover{
+  color: #000;
+}
+a:hover{
+  color:black;
+}
