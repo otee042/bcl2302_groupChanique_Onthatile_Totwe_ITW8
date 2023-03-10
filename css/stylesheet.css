@@ -1,6 +1,5 @@
 h2{
     border-color: black;
-    font-size: 40px;
     background-color: rgb(27, 54, 134);
     margin: 0;
     
@@ -11,13 +10,13 @@ h2{
     border-style: solid;
     padding: 0;
     margin: 0;
+    font-size: large;
   } 
   img{
       border-radius: 50%;
+      border: white solid;
   }
-  h1{
-      font-size: 40px;
-    }
+  
   #one{
       text-align: center;
     }
@@ -47,17 +46,14 @@ h2{
     display: flex;
   }
   .box1{
-    border: 2px solid #000;
     flex: 1;
     margin-right: 2px;
   }
   .box2{
-    border: 2px solid #000;
     flex: 1;
     align-content: center;
   }
   #form{
-    background-color: gray;
     border: 5px solid #0000;
   }
 
@@ -72,9 +68,8 @@ h2{
   }
   .nav{
     list-style-type: none;
-    padding: 10px;
+    margin-right: 100px;
     margin: -10px;
-    margin-right: 10px;
     color: white;
     display: flex;
     justify-content: space-evenly;
@@ -85,3 +80,27 @@ menu a:hover{
 a:hover{
   color:black;
 }
+@media only screen and (max-width: 600px) {
+  .big{
+    display: contents;
+  }
+  .pic{
+    width:100px; height: 100px;}
+  body{
+    font-size: small;
+  }
+  }
+
+@media only screen and (min-width: 601px) and (max-width: 946px) {
+  .pic{
+    width: 200px;
+    height:  200px;
+  }
+  .big{
+    display: contents;
+  }
+  body{
+    font-size: medium;
+  }
+}
+  
